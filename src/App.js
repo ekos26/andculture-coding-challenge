@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import Welcome from './Components/Welcome';
 import BreweriesContainer from './Container/BreweriesContainer';
-import {Route, Switch, withRouter} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
@@ -17,4 +17,4 @@ function App() {
   )
 }
 
-export default withRouter(App);
+export default App;

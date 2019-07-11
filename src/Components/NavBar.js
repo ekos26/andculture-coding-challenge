@@ -1,5 +1,5 @@
 import React from 'react';
-import BreweriesContainer from '../Container/BreweriesContainer';
+// import BreweriesContainer from '../Container/BreweriesContainer';
 import {NavLink} from 'react-router-dom';
 
 const NavBar = props => {
